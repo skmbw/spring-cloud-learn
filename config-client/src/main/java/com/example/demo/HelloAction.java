@@ -15,7 +15,7 @@ public class HelloAction {
     private String foo;
 
     @RequestMapping(value = "/hi")
-    public String hi(){
+    public String hi() {
         return foo;
     }
 }
