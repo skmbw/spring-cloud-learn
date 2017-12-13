@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloAction {
 
     @Value("${foo}")
-    String foo;
+    private String foo;
 
     @RequestMapping(value = "/hi")
     public String hi(){
