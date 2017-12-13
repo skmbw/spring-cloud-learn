@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "service-hi", fallback = HystrixHelloService.class) // 增加断路器
 public interface HelloService {
 
+    // 这里的url 就是要调用的服务的url，和方法名没有关系
     @RequestMapping(value = "/hi", method = RequestMethod.GET)
     String sayHiFromClientOne(@RequestParam(value = "name") String name);
 }
