@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * 一个Spring MVC实现的普通的http服务
+ *
  * @author yinlei
  * @since 2017/12/12 10:58
  */

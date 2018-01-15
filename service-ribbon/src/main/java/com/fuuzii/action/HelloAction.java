@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * 使用ribbon实现客户端负载均衡的服务
+ *
  * @author yinlei
  * @since 2017/12/12 14:23
  */
