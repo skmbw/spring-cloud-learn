@@ -31,6 +31,7 @@ public class MyZuulFilter extends ZuulFilter {
     // 过滤的顺序
     @Override
     public int filterOrder() {
+        // 过滤器的优先级，越大越靠后执行
         return 0;
     }
 
